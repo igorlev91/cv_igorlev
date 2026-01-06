@@ -1,2 +1,9 @@
 [skip-link]
-  title = "Ga naar hoofdinhoud"
+  title = "Вернутся к главному меню"
+
+[language]
+  en = "Engels"
+  nl = "Russian"
+
+[language-switcher]
+  title = "Выбери язык"
