@@ -1,4 +1,4 @@
-baseURL = 'https://cv.igorlev.com/'
+baseURL = 'https://cv.igorlev.github.io/'
 languageCode = 'en-us'
 title = 'CV - Igor Levdansky'
 theme = 'resumay'
