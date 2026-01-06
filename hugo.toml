@@ -21,6 +21,11 @@ printUnusedTemplates = true
   backgroundColor = 'oklch(.92 .004 286.32)'
   themeColor = '#0d6488'
 
+  [params.socialLinks]
+    linkedin = 'https://www.linkedin.com/in/igor-levdansky-b31936168/'
+    github = 'https://github.com/igorlev91'
+    rss = '/rss.xml'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
@@ -38,10 +43,32 @@ printUnusedTemplates = true
     languageName = 'English'
     weight = 10
 
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        name = 'Projects'
+        pageRef = '/projects/'
+        weight = 10
+
+      [[languages.en.menus.main]]
+        name = 'Sitemap'
+        url = '/sitemap.xml'
+        weight = 10
+
   [languages.nl]
     contentDir = 'content/nl'
     languageName = 'Dutch'
     weight = 20
+
+    [languages.nl.menus]
+      [[languages.nl.menus.main]]
+        name = 'Projecten'
+        pageRef = '/projects/'
+        weight = 10
+
+      [[languages.nl.menus.main]]
+        name = 'Sitemap'
+        url = '/sitemap.xml'
+        weight = 10
 
 [markup]
   [markup.tableOfContents]
